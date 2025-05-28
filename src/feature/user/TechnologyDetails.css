@@ -1,0 +1,13 @@
+.border-transparent {
+  border-color: transparent !important;
+}
+
+.topic-link:hover {
+  background-color: #f0f2f5;
+  border-left-color: #cddbea !important;
+}
+
+.topic-link.active {
+  background-color: #f8f9fa;
+  border-left-color: #0d6efd !important;
+} 

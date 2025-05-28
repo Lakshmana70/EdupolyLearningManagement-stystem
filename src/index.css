@@ -1,0 +1,63 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important;  /* Now Montserrat is the default font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size:0.96rem !important;
+}
+
+.montserrat-uniquifier {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  /* font-weight: 500; */
+  font-style: normal;
+  
+}
+
+.w-6 {
+  width: 60%;
+}
+
+.w-4 {
+  width: 40%;
+}
+
+.rdw-editor-main {
+  border: 1px solid #d4d4d4;
+}
+
+.rdw-editor-toolbar {
+  padding: 0px;
+  margin: 0px;
+}
+
+.rdw-block-wrapper {
+  margin: 0px;
+}
+
+.rdw-dropdown-wrapper {
+  height: auto;
+}
+
+.rdw-option-wrapper {
+  padding: 0px;
+  margin: 0px;
+}
+
+.rdw-dropdown-selectedtext {
+  padding: 0px;
+  margin: 0px;
+}
+
+.public-DraftStyleDefault-block {
+  margin: 2px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
